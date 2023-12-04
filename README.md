@@ -12,6 +12,6 @@ Projeto possúi o o front-end completamente responsívo e compatícel com dispos
   
 ## License
 
-Distributed under MIT License, see [LICENSE](LICENSE) for more information.
+Distributed under Apache 2.0 License, see [LICENSE](LICENSE) for more information.
 
 ## PUC MINAS - CORAÇÃO EUCARÍSTICO
