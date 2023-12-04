@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum Geolocalizado</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    
+    <!-- Bootstrap stuff -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body onload="javascript:onLoad()">
+
+    <!-- Header -->
+    <header>
+        <p><a href="/homepage.html"><img src="/Images/Logo.png" class="logo"></a></p>
+        <nav>
+            <ul>
+                <li><a href="/homepage.html">INÍCIO</a></li>
+                <li><a href="/credits.html">CRÉDITOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage main content -->
+    <main>
+
+        <!-- Image carousel -->
+        <div class="grid-element">
+            <h1>Destaque</h1>
+            <hr>
+
+            <!-- Standard bootstrap carousel code -->
+            <div id="img-carousel" class="carousel slide cs1" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="1" aria-label="Slide2"></button>
+                    <button type="button" data-bs-target="#img-carousel" data-bs-slide-to="2" aria-label="Slide3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active c-item">
+                        <img src="" class="d-block w-100 c-img" alt="Slide1" id="icimg-1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="ich5-1">First slide label!</h5>
+                            <p id="icp-1">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img src="" class="d-block w-100 c-img" alt="Slide2" id="icimg-2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="ich5-2">Second slide label!</h5>
+                            <p id="icp-2">Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img src="" class="d-block w-100 c-img" alt="Slide3" id="icimg-3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="ich5-3">Third slide label!</h5>
+                            <p id="icp-3">Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#img-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#img-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Map display -->
+        <div class="grid-element">
+            <h1>Mapa</h1>
+            <hr>
+
+            <div class="map-container"><div id="map"></div></div>
+        </div>
+        
+        <!-- Album gallery -->
+        <div class="grid-element">
+            <h1>Lista de Álbuns</h1>
+            <hr>
+
+            <div class="album-gallery">
+
+                <div class="album-card card1">
+                    <h5 id="card1-h5">Image 1</h5>
+                    <p id="card1-p">Image 1 Description.</p>
+                </div>
+
+                <div class="album-card card2">
+                    <h5 id="card2-h5">Image 2</h5>
+                    <p id="card2-p">Image 2 Description.</p>
+                </div>
+
+                <div class="album-card card3">
+                    <h5 id="card3-h5">Image 3</h5>
+                    <p id="card3-p">Image 3 Description.</p>
+                </div>
+
+                <div class="album-card card4">
+                    <h5 id="card4-h5">Image 4</h5>
+                    <p id="card4-p">Image 4 Description.</p>
+                </div>
+
+                <div class="album-card card5">
+                    <h5 id="card5-h5">Image 5</h5>
+                    <p id="card5-p">Image 5 Description.</p>
+                </div>
+
+                <div class="album-card card6">
+                    <h5 id="card6-h5">Image 6</h5>
+                    <p id="card6-p">Image 6 Description.</p>
+                </div>
+
+                <div class="album-card card7">
+                    <h5 id="card7-h5">Image 7</h5>
+                    <p id="card7-p">Image 7 Description.</p>
+                </div>
+
+                <div class="album-card card8">
+                    <h5 id="card8-h5">Image 8</h5>
+                    <p id="card8-p">Image 8 Description.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h1>
+            &copy; 2023 - Design por <a href="mailto:fabiohenriquegandini@gmail.com">Fábio Gandini</a>
+        </h1>
+        <p>
+            PUC Minas, Coração Eucarístico - Desenvolvimento de Interfaces Web (Trabalho Prático 2)
+        </p>
+    </footer>
+
+    <!-- Mapbox stuff... -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.0/mapbox-gl.js"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaXNrZWxldHUiLCJhIjoiY2xwcG10bGlyMDAybDJrazhubXRiZWcxOSJ9.AxsUi2JCV8TEH0oAxbiYLg';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            center: [-43.94654069100859, -19.91659681188318],
+            zoom: 11,
+            style: 'mapbox://styles/mapbox/streets-v11'
+        });
+
+        async function getCoordinates(albumID) {
+            let loadedjson;
+            let res = await fetch("http://localhost:3000/Albums");
+            loadedjson = await res.json();
+
+            let coords = loadedjson[albumID]["Coordinates"];
+            let title = loadedjson[albumID]["Title"];
+
+            const popup = new mapboxgl.Popup({offset: 25}).setText(
+                title
+            );
+
+            new mapboxgl.Marker()
+                .setLngLat(coords)
+                .setPopup(popup)
+                .addTo(map);
+        }
+        getCoordinates("Album-1");
+        getCoordinates("Album-2");
+        getCoordinates("Album-3");
+        getCoordinates("Album-4");
+        getCoordinates("Album-5");
+        getCoordinates("Album-6");
+        getCoordinates("Album-7");
+        getCoordinates("Album-8");
+
+        map.on('load', function () {
+            map.resize();
+            //map.setFog({})
+        });
+    </script>
+
+</body>

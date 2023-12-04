@@ -1,0 +1,206 @@
+/*
+Fabio Gandini - 2023
+PUC Minas - Coração Eucarístico - Web Design (TP2)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body:before{ /*Background*/
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  
+    display: block;
+    background-image: url('Images/background.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+  
+    filter: grayscale(100%) blur(4px);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6vh;
+
+    background-color: rgb(45, 47, 49);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+    opacity: 0.9;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+}
+header .logo{
+    width: 150px;
+    padding-top: 12%;
+    padding-left: 10%;
+    cursor: pointer;
+}
+header nav{
+    flex: 1;
+    text-align: right;
+    padding-top: 0.8%;
+    padding-right: 4%;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 4%;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-shadow: 0 0 5px rgb(153, 153, 153);
+}
+
+main{
+    min-height: 100vh;
+
+    display: flexbox;
+
+    margin: 1% 3%;
+}
+
+.grid-element{
+    width: 100%;
+    padding-bottom: 6vh;
+    text-align: left;
+}
+.grid-element h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+}
+.grid-element hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    opacity: 1;
+    margin: 0%;
+    padding: 0%;
+}
+
+.cs1{
+    padding-top: 1%;
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+#map{
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.map-container{
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 99%;
+}
+
+.album-gallery{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-top: 0.5%;
+}
+.album-card{
+    width: 45%;
+    max-width: 400px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 1%;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0.75% 0.9%;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.album-card h5{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-shadow: 0 0 5px rgb(153, 153, 153);
+}
+.album-card p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(153, 153, 153);
+    font-size: 10px;
+}
+.card1{
+    background-image: url(./Images/Albums/Album-1/cover.jpg);
+}
+.card2{
+    background-image: url(./Images/Albums/Album-2/cover.jpg);
+}
+.card3{
+    background-image: url(./Images/Albums/Album-3/cover.jpg);
+}
+.card4{
+    background-image: url(./Images/Albums/Album-4/cover.jpg);
+}
+.card5{
+    background-image: url(./Images/Albums/Album-5/cover.jpg);
+}
+.card6{
+    background-image: url(./Images/Albums/Album-6/cover.jpg);
+}
+.card7{
+    background-image: url(./Images/Albums/Album-7/cover.jpg);
+}
+.card8{
+    background-image: url(./Images/Albums/Album-8/cover.jpg);
+}
+.album-card:hover{
+    transform: translateY(-10px);
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+
+    text-align: center;
+    background-color: rgb(45, 47, 49);
+
+    display: inline-block;
+    align-items: center;
+}
+footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-top: 10px;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(59, 141, 255);
+    text-decoration: underline;
+}

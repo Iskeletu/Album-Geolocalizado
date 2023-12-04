@@ -1,0 +1,165 @@
+{
+    "Albums": {
+        "Album-1": {
+            "Title": "Shopping Cidade",
+            "Description": "Localizado no coração da capital mineira e inaugurado em 30 de abril de 1991.",
+            "Coordinates": [-43.94006257668681, -19.921353693277908],
+            "Date": "19/12/2022",
+            "Cover URL": "/Images/Albums/Album-1/cover.jpg"
+        },
+        "Album-2": {
+            "Title": "Diamond Mall",
+            "Description": "Desfrute de uma experiência única de compras, lazer e entretenimento.",
+            "Coordinates": [-43.94759721903299, -19.92711766618141],
+            "Date": "01/06/2023",
+            "Cover URL": "/Images/Albums/Album-2/cover.jpg"
+        },
+        "Album-3": {
+            "Title": "BH Shopping",
+            "Description": "Moda, gastronomia, entretenimento, cultura, lazer e diversão.",
+            "Coordinates": [-43.94457826441757, -19.974035522094457],
+            "Date": "29/06/2023",
+            "Cover URL": "/Images/Albums/Album-3/cover.jpg"
+        },
+        "Album-4": {
+            "Title": "Boulevard Shopping",
+            "Description": "Centro moderno com lojas de marcas internacionais e um cinema IMAX.",
+            "Coordinates": [-43.920010011648344, -19.919935469258405],
+            "Date": "03/05/2020",
+            "Cover URL": "/Images/Albums/Album-4/cover.jpg"
+        },
+        "Album-5": {
+            "Title": "Pátio Savassi",
+            "Description": "Faça suas compras e transporte seus sonhos com estilo.",
+            "Coordinates": [-43.93383484232967, -19.94050347122702],
+            "Date": "07/04/2023",
+            "Cover URL": "/Images/Albums/Album-5/cover.jpg"
+        },
+        "Album-6": {
+            "Title": "Shopping Oiapoque",
+            "Description": "O único shopping que tem preço mais baixo que na internet.",
+            "Coordinates": [-43.939252842329665, -19.913316624099156],
+            "Date": "22/08/2021",
+            "Cover URL": "/Images/Albums/Album-6/cover.jpg"
+        },
+        "Album-7": {
+            "Title": "Mercado Central",
+            "Description": "Animado mercado indoor com alimentos, artesanato e souvenirs",
+            "Coordinates": [-43.94312644232967, -19.922864638805244],
+            "Date": "13/07/2022",
+            "Cover URL": "/Images/Albums/Album-7/cover.jpg"
+        },
+        "Album-8": {
+            "Title": "Ponteio Lar Shopping",
+            "Description": "Shopping center voltado para a venda e móveis domésticos e eletrodomésticos.",
+            "Coordinates": [-43.94022965683478, -19.963569471791555],
+            "Date": "11/12/2021",
+            "Cover URL": "/Images/Albums/Album-8/cover.jpg"
+        }
+    },
+
+    "Photos": {
+        "001": {
+            "URL": "/Images/Albums/Album-1/1.jpg",
+            "Album": "Album-1"
+        },
+        "002": {
+            "URL": "/Images/Albums/Album-1/2.jpg",
+            "Album": "Album-1"
+        },
+        "003": {
+            "URL": "/Images/Albums/Album-1/3.jpg",
+            "Album": "Album-1"
+        },
+        "004": {
+            "URL": "/Images/Albums/Album-2/1.jpg",
+            "Album": "Album-2"
+        },
+        "005": {
+            "URL": "/Images/Albums/Album-2/2.jpg",
+            "Album": "Album-2"
+        },
+        "006": {
+            "URL": "/Images/Albums/Album-2/3.jpg",
+            "Album": "Album-2"
+        },
+        "007": {
+            "URL": "/Images/Albums/Album-3/1.jpg",
+            "Album": "Album-3"
+        },
+        "008": {
+            "URL": "/Images/Albums/Album-3/2.jpg",
+            "Album": "Album-3"
+        },
+        "009": {
+            "URL": "/Images/Albums/Album-3/3.jpg",
+            "Album": "Album-3"
+        },
+        "010": {
+            "URL": "/Images/Albums/Album-4/1.jpg",
+            "Album": "Album-4"
+        },
+        "011": {
+            "URL": "/Images/Albums/Album-4/2.jpg",
+            "Album": "Album-4"
+        },
+        "012": {
+            "URL": "/Images/Albums/Album-4/3.jpg",
+            "Album": "Album-4"
+        },
+        "013": {
+            "URL": "/Images/Albums/Album-5/1.jpg",
+            "Album": "Album-5"
+        },
+        "014": {
+            "URL": "/Images/Albums/Album-5/2.jpg",
+            "Album": "Album-5"
+        },
+        "015": {
+            "URL": "/Images/Albums/Album-5/3.jpg",
+            "Album": "Album-5"
+        },
+        "016": {
+            "URL": "/Images/Albums/Album-6/1.jpg",
+            "Album": "Album-6"
+        },
+        "017": {
+            "URL": "/Images/Albums/Album-6/2.jpg",
+            "Album": "Album-6"
+        },
+        "018": {
+            "URL": "/Images/Albums/Album-6/3.jpg",
+            "Album": "Album-6"
+        },
+        "019": {
+            "URL": "/Images/Albums/Album-7/1.jpg",
+            "Album": "Album-7"
+        },
+        "020": {
+            "URL": "/Images/Albums/Album-7/2.jpg",
+            "Album": "Album-7"
+        },
+        "021": {
+            "URL": "/Images/Albums/Album-7/3.jpg",
+            "Album": "Album-7"
+        },
+        "022": {
+            "URL": "/Images/Albums/Album-8/1.jpg",
+            "Album": "Album-8"
+        },
+        "023": {
+            "URL": "/Images/Albums/Album-8/2.jpg",
+            "Album": "Album-8"
+        },
+        "024": {
+            "URL": "/Images/Albums/Album-8/3.jpg",
+            "Album": "Album-8"
+        }
+    },
+
+    "Carousel": {
+        "Slot1": {"Photo Identifier": "003"},
+        "Slot2": {"Photo Identifier": "004"},
+        "Slot3": {"Photo Identifier": "008"}
+    }
+}
